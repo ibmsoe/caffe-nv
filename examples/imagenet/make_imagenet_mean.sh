@@ -6,8 +6,8 @@ EXAMPLE=examples/imagenet
 DATA=data/ilsvrc12
 TOOLS=build/tools
 
-#Check if CAFFE_NV_BIN is unset
-if [ -z ${CAFFE_NV_BIN+x} ];
+#Check if TOOLS is unset
+if [ -z ${TOOLS+x} ];
 then
 TOOLS=./build/tools
 fi
